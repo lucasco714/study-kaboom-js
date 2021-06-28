@@ -13,7 +13,7 @@ let CURRENT_JUMP_FORCE = JUMP_FORCE;
 let isJumping = true;
 const FALL_DEATH = 400;
 
-loadRoot('/assets/');
+loadRoot('./assets/');
 loadSprite('coin', 'coin.png');
 loadSprite('evil-shroom', 'bot1.png');
 loadSprite('brick', 'brick.png');
